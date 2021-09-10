@@ -1,0 +1,42 @@
+
+Q_1. what is the complexity of the following code?
+
+	int a = 0;
+	for(int i = 0; i<n; i++)
+	{
+	  for(int j = n; j>i; j--)
+	  {
+	     a = a + i + j;
+	  }
+	}
+
+ANS--> complexity = O(n^2)
+
+Q_2. what is the complexity of the following code?
+
+	int count = 0;
+	for(int i = 1; i<=n; i*2)
+	{
+	  for(int j = 1; j<=i; j++)
+	  {
+	     count count + 1;
+	  }
+	}
+
+ANS--> complexity = O(nlogn)
+
+
+Q_3. find the best case, average case and worst case of linear search algorithm.
+
+ANS--> 1_Best case ==>  In the linear search problem, the best case occurs when x is present at the first location. 		                        							        so,complexity for the best case is constant.
+			 
+			:- complexity = O(1).
+
+      2_Average case ==> complexity is O(n).
+
+      3_Worst case ==>  the worst case occure when elements is present at the last location or element is not present .
+
+			:- complexity = O(n).
+
+      
+
